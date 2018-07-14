@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mk"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:stackFromBottom="true"
+        android:text="\t\tCOLLEGES LIST"
+        android:textColor="#191970"
+        android:textSize="35sp"
+        android:textStyle="bold|italic" />
+
+    <ListView
+        android:id="@+id/myList"
+        android:layout_width="280dp"
+        android:layout_height="398dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:divider="@null"
+        android:dividerHeight="47dp"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-8939663486500862/1787516166">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Selector.Lahore.College">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="College Selector App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MedicalCollege" />
+        <activity android:name=".Medicalinformation" />
+        <activity android:name=".Medicalinformation2" />
+        <activity android:name=".Medicalinformation3" />
+        <activity android:name=".Medicalinformation4" />
+        <activity android:name=".Medicalinformation5" />
+        <activity android:name=".Medicalinformation6" />
+        <activity android:name=".Medicalinformation7" />
+        <activity android:name=".Medicalinformation8" />
+        <activity android:name=".Medicalinformation9" />
+        <activity android:name=".Medicalinformation10" />
+        <activity android:name=".Medicalinformation11" />
+        <activity android:name=".Medicalinformation12" />
+        <activity android:name=".IcomCollege" />
+        <activity android:name=".Icominfo1" />
+        <activity android:name=".Icominfo2" />
+        <activity android:name=".Icominfo3" />
+        <activity android:name=".Icominfo4" />
+        <activity android:name=".Icominfo5" />
+        <activity android:name=".Icominfo6" />
+        <activity android:name=".Icominfo7" />
+        <activity android:name=".DiplomaCollege" />
+        <activity android:name=".Dip1" />
+        <activity android:name=".Dip2" />
+        <activity android:name=".Dip3" />
+        <activity android:name=".Dip4" />
+        <activity android:name=".Dip5" />
+        <activity android:name=".Dip6" />
+        <activity android:name=".Dip7" />
+        <activity android:name=".BBACollege" />
+        <activity android:name=".BBA1" />
+        <activity android:name=".BBA2" />
+        <activity android:name=".BBA3" />
+        <activity android:name=".BBA4" />
+        <activity android:name=".BBA5" />
+        <activity android:name=".BBA6" />
+    </application>
+
+</manifest>
